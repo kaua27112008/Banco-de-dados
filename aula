@@ -1,0 +1,10 @@
+create database BD_do_kauã;
+
+create table Alunos (
+nome varchar(20),
+idade int,
+curso varchar (100),
+matricula int unique
+)
+
+
